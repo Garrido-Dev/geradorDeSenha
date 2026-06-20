@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    min-height: 20rem;
+    width: 30rem;
+    background-color:#1E293B;
+    box-shadow: rgb(145, 144, 144) 1px 1px 5rem 0.1rem;
+    border-radius: 2rem;
+}
+
+.box-title{
+    /* border: solid white 1px; */
+    width: 200px;
+    height: 50px;
+    margin-top: 3rem;   
+    text-align: center; 
+    color: white;
+    
+}

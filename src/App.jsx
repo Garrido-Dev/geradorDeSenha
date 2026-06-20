@@ -1,14 +1,26 @@
 import {useState} from 'react'
-import password from './hooks/password'
-
+import password from './hooks/password.js'
+import Button from './components/button/index.jsx'
+import './App.css'
 
 export default function App(){
   
-  const senha = password()
+  const [newPassword, SetnewPassword] = useState('')
 
   return (
+<>
 
+      <div className='container'>
+        <Button>
+          <button onClick={() => { SetnewPassword(password()) }}>Gerar</button>
+          <button onClick={() => { }}>copiar</button>
+          <button onClick={() => { SetnewPassword('') }}>limpar</button>
+        </Button>
 
-    <h1>{senha}</h1>
+        <div className='box-title'>
+          <h3>{newPassword}</h3>
+        </div>
+      </div>
+</> 
   )
 }
