@@ -13,12 +13,12 @@ export default function App(){
       <div className='container'>
         <Button>
           <button onClick={() => { SetnewPassword(password()) }}>Gerar</button>
-          <button onClick={() => { }}>copiar</button>
-          <button onClick={() => { SetnewPassword('') }}>limpar</button>
+          <button onClick={() => { }}>Copiar</button>
+          <button onClick={() => { SetnewPassword('') }}>Limpar</button>
         </Button>
 
         <div className='box-title'>
-          <h3>{newPassword}</h3>
+          <h2>{newPassword}</h2>
         </div>
       </div>
 </> 
