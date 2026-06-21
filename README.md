@@ -1,16 +1,74 @@
-# React + Vite
+# 🔑 Gerador de Senhas Aleatórias
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto simples, moderno e funcional desenvolvido em **React** com **Vite** para geração de senhas seguras de forma rápida, com opção de cópia instantânea para a área de transferência.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎖️ Nota Importante: Desenvolvimento Autoral (Sem IA)
 
-## React Compiler
+No cenário atual onde muitos projetos são gerados de forma automática por Inteligências Artificiais, **este projeto destaca-se por ser 100% autoral**. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Toda a arquitetura, componentização, lógica de estados e estruturação do projeto foram criadas e codificadas por mim, linha por linha, do absoluto zero. Utilizei ferramentas de auxílio apenas como suporte consultivo para tirar dúvidas pontuais de segurança (como o bloqueio do HTTPS na API de Clipboard) e boas práticas, garantindo o domínio total sobre cada bloco de código escrito.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Demonstração do Projeto
+
+Selecione a imagem abaixo para ver como ficou a interface do gerador:
+
+
+![Print da Tela do Projeto](src/assets/image.png)
+
+---
+
+## ✨ Funcionalidades
+
+* 🎲 **Geração Instantânea:** Cria senhas aleatórias e seguras com apenas um clique.
+* 📋 **Cópia Inteligente:** Botão de copiar com feedback visual na tela ("Copiado! ✅").
+* 🧼 **Limpeza Rápida:** Botão para limpar a tela e o estado atual de forma limpa.
+* 🛡️ **Segurança Avançada:** Suporte a conexões HTTPS e ambientes virtuais através de método fallback de captura.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **React** (Biblioteca principal)
+* **Vite** (Ferramenta de build ultra rápida)
+* **JavaScript (ES6+)** (Lógica do app e Hooks Customizados)
+* **CSS3** (Estilização da interface e layout responsivo)
+
+---
+
+## 📦 Como Rodar o Projeto em Sua Máquina
+
+Siga os passos abaixo para testar o gerador localmente:
+
+### 1. Clonar o repositório
+```bash
+git clone https://github.com
+```
+
+### 2. Instalar as dependências
+```bash
+npm install
+```
+
+### 3. Iniciar o servidor de desenvolvimento
+```bash
+npm run dev
+```
+
+Abra o seu navegador e acesse: `http://localhost:5173`
+
+---
+
+## 🧠 Aprendizados e Desafios Superados
+
+Durante o desenvolvimento manual deste projeto, explorei e dominei conceitos fundamentais:
+* Criação e arquitetura correta de **Hooks Customizados** (`useClipboard`).
+* Gerenciamento de estados assíncronos com **Async/Await** no React.
+* Manipulação segura da API de Clipboard do navegador e contorno de bloqueios de segurança **HTTPS**.
+* Tratamento prático de loops de renderização infinitos ao atualizar estados no React.
+
+---
+Feito com dedicação e código real por 💻 [Garrido-dev](https://github.com/Garrido-Dev)
