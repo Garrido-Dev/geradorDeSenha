@@ -2,6 +2,8 @@
 
 Um projeto simples, moderno e funcional desenvolvido em **React** com **Vite** para geração de senhas seguras de forma rápida, com opção de cópia instantânea para a área de transferência.
 
+🌐 **Acesse o projeto online:** [https://garrido-dev.github.io/geradorDeSenha/](https://garrido-dev.github.io/geradorDeSenha/)
+
 ---
 
 ## 🎖️ Nota Importante: Desenvolvimento Autoral (Sem IA)
@@ -14,8 +16,7 @@ Toda a arquitetura, componentização, lógica de estados e estruturação do pr
 
 ## 📸 Demonstração do Projeto
 
-Selecione a imagem abaixo para ver como ficou a interface do gerador:
-
+[Clique aqui para acessar a demonstração online](https://garrido-dev.github.io/geradorDeSenha/) ou veja o print da interface abaixo:
 
 ![Print da Tela do Projeto](src/assets/image.png)
 
