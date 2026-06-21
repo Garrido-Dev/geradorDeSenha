@@ -19,5 +19,3 @@ export default function password(){
     return fullPassword.join('')
 
 }
-
-console.log(`${password()} - quantidade de caracteres ${password().length}`)

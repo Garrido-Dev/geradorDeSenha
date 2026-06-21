@@ -9,6 +9,14 @@
     background-color:#1E293B;
     box-shadow: rgb(145, 144, 144) 1px 1px 5rem 0.1rem;
     border-radius: 2rem;
+    
+}
+
+.container .title{
+    margin-bottom: 2rem;
+    color: white;
+    text-shadow: #ca2f2f 0.1rem 0.1rem 0.5rem;
+
 }
 
 .box-title{
