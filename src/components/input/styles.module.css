@@ -26,10 +26,11 @@
 }
 .passwordSize {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: .5rem;
     align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
 }
 
 .passwordSize label{

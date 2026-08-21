@@ -38,7 +38,7 @@ export default function App(){
         </div>
 
         <div>
-          <label htmlFor="showInput">Customizar tamanho:</label>
+          <label htmlFor="showInput" className='labelCustomInput'>Customizar tamanho:</label>
           <input 
           type="checkbox" 
           id="showInput" 
@@ -46,7 +46,8 @@ export default function App(){
           onChange={()=>setShowInput(currentState => !currentState)}
           />
         </div>
-        <div>
+
+        <div className='divInputSize'>
           {showInput ? (<Input value={customSize} setPassWordSize={setCustomSize}></Input>) : null}
           
           </div>

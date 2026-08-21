@@ -4,7 +4,7 @@ export default function Input(props) {
   return (
     <>
       <div className={styles.passwordSize}>
-        <label htmlFor="passwordSize">Tamanho</label>
+        <label htmlFor="passwordSize">Tamanho: </label>
 
         <input
           className={styles.inputPassword}
